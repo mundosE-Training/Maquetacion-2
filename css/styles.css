@@ -254,3 +254,12 @@ body{
     text-align: center;
     color: #00538C;
 }
+
+.card2:hover{
+    background-color: greenyellow;
+}
+
+.card2:hover .icon{
+    color: rgb(218, 23, 120);
+    transform: rotate(40deg);
+}
