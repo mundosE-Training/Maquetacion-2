@@ -76,13 +76,13 @@ body{
     margin-top: .5rem;
     margin-left: 26px;
     
-    animation-name: rotate-gear;
+ /*   animation-name: rotate-gear;
     animation-duration: 2s;
     animation-iteration-count: infinite;
-    animation-timing-function: linear;
+    animation-timing-function: linear;*/
 }
 
-#logo:hover .gear{
+/*#logo:hover .gear{
    animation: fromBellow 500ms linear;
 }
 
@@ -106,7 +106,7 @@ body{
         transform: rotateZ(360deg);
     }
 }
-
+*/
 
 #logo h3{
     display: block;
@@ -117,11 +117,11 @@ body{
     transition: all 300ms;
 }
 
-#logo:hover h3{
+/* #logo:hover h3{
     animation: fromright 300ms linear;
-}
+} */
 
-@keyframes fromright {
+/* @keyframes fromright {
     from{
         transform: translateX(200%);
     }
@@ -129,7 +129,7 @@ body{
         transform: translateX(0%);
     }
 }
-
+ */
 
 #menu{
     float:right;
@@ -152,7 +152,7 @@ body{
 
 #menu ul li a:hover{
     color: #37bcf9;;
-    transform: scale(1.2, 1.2);
+  /*   transform: scale(1.2, 1.2); */
 }
 
 /*BANNER*/
@@ -162,19 +162,19 @@ body{
     border: .625rem solid white;
     box-shadow: 0rem 0rem .125rem gray;
     background: url(../img/bakbaner.png);
-    background-position: -12.5rem -12.5rem;  /*explicar*/
-    animation: backBanner 10s linear;
+    background-position: -12.5rem -12.5rem;  
     overflow: hidden;
+   /* animation: backBanner 10s linear;*/
     
 }
-@keyframes backBanner {
+/* @keyframes backBanner {
     0%{
         background-position: 0px 0px;
     }
     100%{
         background-position: -200px -200px;
     }
-}
+} */
 
 #banner h1{
     display: block;
@@ -187,10 +187,10 @@ body{
     letter-spacing: 2px;
     text-shadow: 2px 2px 1px black;
     margin: 27px auto;
-    animation: showText 10s linear;
+   /*  animation: showText 10s linear; */
 }
 
-@keyframes showText {
+/* @keyframes showText {
     0%{
         transform: translateX(-600px) scale(5,5);
         opacity: 1;
@@ -211,7 +211,7 @@ body{
         text-shadow: 2px 2px 1px black;
         opacity: 1;
     }
-}
+} */
 
 /*TARJETAS*/
 .card{
