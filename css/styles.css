@@ -257,6 +257,15 @@ body{
     color: #00538C;
 }
 
+
+.card2:hover{
+    background-color: greenyellow;
+}
+
+.card2:hover .icon{
+    color: rgb(218, 23, 120);
+    transform: rotate(40deg);
+
 .card1:hover {
     color: red;
     background-color: aqua;
@@ -264,4 +273,5 @@ body{
 
 .card1:hover .icon {
     transform: rotate(5deg) scale(1.1);
+
 }
