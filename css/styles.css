@@ -227,6 +227,7 @@ body{
    background: white;
    margin-top: 40px;
    cursor: pointer;
+   transition: all 0.5s;
 }
 
 .card .icon{
@@ -237,6 +238,7 @@ body{
     line-height: 130px;
     text-align: center;
     margin:0px auto;
+    transition: all 0.5s ease-in-out;
 
 }
 
@@ -253,4 +255,13 @@ body{
     font-family: "trebuchetMS"; 
     text-align: center;
     color: #00538C;
+}
+
+.card1:hover {
+    color: red;
+    background-color: aqua;
+}
+
+.card1:hover .icon {
+    transform: rotate(5deg) scale(1.1);
 }
