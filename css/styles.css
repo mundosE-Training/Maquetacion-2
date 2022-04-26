@@ -253,3 +253,12 @@ body{
     text-align: center;
     color: #00538C;
 }
+
+
+.card p:hover {
+    color: rgb(66, 201, 180);
+}
+
+.card:hover {
+    transform: scale(1.2, 1.2);
+}
